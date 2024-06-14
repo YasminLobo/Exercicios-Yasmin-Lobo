@@ -1,0 +1,36 @@
+/* Yasmin Siqueira Lobo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+button {
+    padding: 10px 20px;
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+button:hover {
+    background: #45a049;
+}
+#weatherResult {
+    margin-top: 20px;
+}
